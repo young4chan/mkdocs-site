@@ -1,0 +1,23 @@
+version = 1
+revision = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "mkdocs"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "mkdocs-material" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mkdocs-material", specifier = ">=1.5.1" }]
+
+[[package]]
+name = "mkdocs-material"
+version = "1.5.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/51/2f/c27c4eb6f662e3c7deb7daf0140c0d31eb91bdf48b74246caaf307b4b4e5/mkdocs-material-1.5.1.tar.gz", hash = "sha256:d4509bf085b6961897cc5e0ab3f3622315a171edea21de63ad4e52a5331894bb", size = 46078 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/1b/63b0e05a6e108791d56a17db8ad9f50c04d91e90622ad1609c031fcb65ae/mkdocs_material-1.5.1-py2.py3-none-any.whl", hash = "sha256:336667157896dcf4337640e4be6b37883acbdc53914d95caf2c8bcf0b9edcd80", size = 51057 },
+]
