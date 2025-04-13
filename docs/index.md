@@ -15,3 +15,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+I'd like to drink :beer: after i played :soccer:, and i bring my :boy: and :girl: to meet the :woman: 

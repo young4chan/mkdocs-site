@@ -1,4 +1,48 @@
-site_name: Homenew
+site_name: 新家启航
 site_url: https://www.homenew.cc
 theme:
   name: material
+  font:
+    text: "Noto Sans SC"
+    code: "JetBrains Mono"
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.footer
+  palette:
+    # dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: green
+      accent: deep purple
+    
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: blue
+      accent: deep orange
+copyright: '<a href="https://beian.miit.gov.cn/">京ICP备2021034095号-1</a>'
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
