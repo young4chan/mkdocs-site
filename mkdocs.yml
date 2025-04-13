@@ -15,7 +15,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark Mode
-      primary: green
+      primary: grey
       accent: deep purple
     
     # Light mode
@@ -23,7 +23,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light Mode
-      primary: blue
+      primary: white
       accent: deep orange
 copyright: '<a href="https://beian.miit.gov.cn/">京ICP备2021034095号-1</a>'
 markdown_extensions:
